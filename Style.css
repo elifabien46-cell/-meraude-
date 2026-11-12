@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff8fc7, #ffcce5, #ff69a9);
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    color: #a51d62;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    padding: 35px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 25px;
+    box-shadow: 0 10px 35px rgba(150, 20, 90, 0.25);
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.container > p {
+    margin-bottom: 25px;
+}
+
+.gift {
+    font-size: 110px;
+    margin: 20px;
+    animation: pulse 1.5s infinite;
+    cursor: pointer;
+}
+
+button {
+    background: #ed4c9a;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c92d79;
+}
+
+#message {
+    margin-top: 30px;
+    line-height: 1.8;
+    animation: appear 1s ease;
+}
+
+#message h2 {
+    margin-bottom: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes pulse {
+    50% {
+        transform: scale(1.12);
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
