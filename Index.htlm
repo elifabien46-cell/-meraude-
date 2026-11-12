@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pour Émeraude 💗</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Pour Émeraude 💗</h1>
+        <p>Une petite surprise rien que pour toi...</p>
+
+        <div class="gift" id="gift">
+            🎁
+        </div>
+
+        <button onclick="openGift()">Ouvrir mon cadeau</button>
+
+        <div id="message" class="hidden">
+            <h2>Une surprise pour toi 🌹</h2>
+            <p>
+                Émeraude, cette petite surprise a été créée
+                spécialement pour toi.
+            </p>
+            <p>
+                Tu es une personne précieuse.
+                N'oublie jamais ta valeur et continue de sourire.
+            </p>
+            <p>Avec beaucoup de tendresse 💗</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
