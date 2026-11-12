@@ -31,6 +31,28 @@
             </p>
             <p>Avec beaucoup de tendresse 💗</p>
         </div>
+<div class="secret-gifts">
+    <h2>Trois petites surprises pour toi 🎀</h2>
+
+    <div class="gift-list">
+
+        <button onclick="showSecret(1)">
+            🌹 Surprise 1
+        </button>
+
+        <button onclick="showSecret(2)">
+            💌 Surprise 2
+        </button>
+
+        <button onclick="showSecret(3)">
+            ⭐ Surprise 3
+        </button>
+
+    </div>
+
+    <p id="secret-message"></p>
+</div>
+
     </div>
 
     <script src="script.js"></script>
