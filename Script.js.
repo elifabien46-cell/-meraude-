@@ -68,3 +68,24 @@ function createHeart() {
 }
 
 setInterval(createHeart, 500);
+
+function showSecret(number) {
+    const message = document.getElementById("secret-message");
+
+    if (number === 1) {
+        message.innerHTML =
+            "🌹 Tu mérites un jardin rempli de bonheur et de sourires.";
+    }
+
+    if (number === 2) {
+        message.innerHTML =
+            "💌 Même les mots les plus beaux ne suffisent pas toujours à exprimer combien une personne peut compter.";
+    }
+
+    if (number === 3) {
+        message.innerHTML =
+            "⭐ N'oublie jamais de croire en tes rêves. Tu as une lumière qui t'appartient.";
+    }
+
+    message.classList.remove("hidden");
+}
