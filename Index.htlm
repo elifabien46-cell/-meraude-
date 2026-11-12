@@ -36,3 +36,57 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pour Émeraude 💗</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container" id="home">
+        <h1>Bonjour Émeraude 💗</h1>
+
+        <p>
+            J'ai préparé quelque chose de spécial pour toi...
+        </p>
+
+        <div class="gift" id="gift">🎁</div>
+
+        <button onclick="openGift()">
+            Découvrir ma surprise 🌹
+        </button>
+
+        <div id="message" class="hidden">
+            <h2>Une petite lettre pour toi 💌</h2>
+
+            <p>
+                Je ne sais pas toujours trouver les mots parfaits,
+                alors j'ai préféré créer ce petit univers rien que pour toi.
+            </p>
+
+            <p>
+                Ta présence peut rendre une journée plus lumineuse.
+                J'espère que cette surprise te fera sourire.
+            </p>
+
+            <p>
+                Tu mérites beaucoup de bonheur, de douceur
+                et de belles choses.
+            </p>
+
+            <p>
+                Ne change jamais ta belle façon d'être.
+                Merci d'être toi, tout simplement. 💗
+            </p>
+
+            <h3>Avec beaucoup de tendresse 🌷</h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
